@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://a4zbabz.top/sitemap.xml

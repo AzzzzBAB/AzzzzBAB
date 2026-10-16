@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>a4zbabz · 做点小东西，顺手记下来</title>
+  <meta name="description" content="a4zbabz 的个人网站：自己写的小程序，和一些写下来怕忘的笔记。" />
+  <meta name="theme-color" content="#eff0ec" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">a4zbabz</a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="works.html">作品</a>
+        <a href="notes.html">笔记</a>
+        <a href="about.html">关于</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <p class="hero-kicker reveal">个人作品与笔记</p>
+          <h1 class="reveal d1">做点小东西，<br />顺手记下来。</h1>
+          <p class="lead reveal d2">
+            这里放我自己写的小程序，和一些写下来怕忘的笔记。东西都不大，但都是真在用的。
+          </p>
+          <div class="hero-actions reveal d3">
+            <a class="btn btn--primary" href="works.html">看看作品</a>
+            <a class="btn btn--ghost" href="notes.html">读笔记</a>
+          </div>
+        </div>
+
+        <div class="shelf reveal d2" id="hero-shelf" aria-label="最近在用的作品"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>精选作品</h2>
+          <a class="more" href="works.html">全部作品</a>
+        </div>
+        <div class="works-grid" id="featured-works"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>最新笔记</h2>
+          <a class="more" href="notes.html">全部笔记</a>
+        </div>
+        <div class="notes" id="latest-notes"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© <span id="year"></span> a4zbabz</span>
+      <span class="sep"></span>
+      <a href="mailto:hi@a4zbabz.top">hi@a4zbabz.top</a>
+      <a href="about.html">关于本站</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

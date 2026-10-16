@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>作品 · a4zbabz</title>
+  <meta name="description" content="a4zbabz 写的小程序与工具。" />
+  <meta name="theme-color" content="#eff0ec" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">a4zbabz</a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="works.html">作品</a>
+        <a href="notes.html">笔记</a>
+        <a href="about.html">关于</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" style="padding-bottom:8px">
+      <div class="wrap" style="display:block">
+        <p class="hero-kicker">作品</p>
+        <h1 style="font-size:clamp(26px,3.4vw,40px)">我自己写的小程序</h1>
+        <p class="lead">
+          都是解决自己某个具体麻烦才做的。能用、够小、没广告。点标签可以只看某一类。
+        </p>
+      </div>
+    </section>
+
+    <section class="section" style="border-top:0;padding-top:18px">
+      <div class="wrap">
+        <div class="filters">
+          <div id="work-filters" class="filters" style="margin:0"></div>
+          <span class="count" id="work-count"></span>
+        </div>
+        <div class="works-grid" id="all-works"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© <span id="year"></span> a4zbabz</span>
+      <span class="sep"></span>
+      <a href="mailto:hi@a4zbabz.top">hi@a4zbabz.top</a>
+      <a href="about.html">关于本站</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
